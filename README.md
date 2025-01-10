@@ -1,9 +1,9 @@
 ## Fortran codes for forecast of ocean tidal load effects on Earth's centric variation of mass
 https://www.zcyphygeodesy.com/en/h-nd-128.html
 ## [Algorithm purpose]
-    Input time series parameters, and forecast the ocean tidal load effect time series on Earth's mass centric variation (Xcm, Ycm, Zcm, in unit of mm) from the first-degree ocean tidal load spherical harmonic coefficient file OtideOne.dat output by the function [Spherical harmonic analysis on ocean tidal constituent harmonic constants].
-    Improve the algorithm of tidal load effects on Earth's mass centric variation in the IERS Conventions (2010), so that the tidal load effects on Earth's mass centric variation is strictly one-to-one correspondence with global tidal load spherical harmonic coefficient model.
-    The Earth's tidal force from the celestial body at the Earth's center of mass is always equal to zero, so geodesy does not specifically study the solid tidal effect on the Earth's center of mass. Ocean tides and surface atmosphere tides lead to the redistribution of surface mass, causing periodic variations of Earth's center of mass.
+&emsp;```Input time series parameters, and forecast the ocean tidal load effect time series on Earth's mass centric variation (Xcm, Ycm, Zcm, in unit of mm) from the first-degree ocean tidal load spherical harmonic coefficient file OtideOne.dat output by the function [Spherical harmonic analysis on ocean tidal constituent harmonic constants].```  
+&emsp;```Improve the algorithm of tidal load effects on Earth's mass centric variation in the IERS Conventions (2010), so that the tidal load effects on Earth's mass centric variation is strictly one-to-one correspondence with global tidal load spherical harmonic coefficient model.```  
+&emsp;```The Earth's tidal force from the celestial body at the Earth's center of mass is always equal to zero, so geodesy does not specifically study the solid tidal effect on the Earth's center of mass. Ocean tides and surface atmosphere tides lead to the redistribution of surface mass, causing periodic variations of Earth's center of mass.```
 ![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAguLbQuQYo__3L9wEwlg44ugk.jpg)
 ## [Geophysical models]
     (1) The first-degree ocean tidal load spherical harmonic coefficient file OtideOne.dat.
